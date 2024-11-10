@@ -12,7 +12,7 @@
 <body>
     <div class="header">
         <img src="{{url('img/logo.png')}}" alt="" style="margin-right: 80px; height:80px;">
-        <div style="width: 1000px;"></div>
+        <div style="width: 650px;"></div>
         <nav style="display: flex;align-items: center;transition: 1s ease;">
             <ul style="text-align: center;display: flex; flex-direction: row;">
                 <li class="listt"><a href="{{route('cart')}}"><span style="font-size: 30px; cursor:pointer" class="material-symbols-outlined">
