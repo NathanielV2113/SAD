@@ -19,6 +19,16 @@ class AuthController extends Controller
     public function login(){
         return view('auth/login');
     }
+    public function home(){
+        return view('home');
+    }
+    public function cart(){
+        return view('cart');
+    }
+    public function orders(){
+        return view('orders');
+    }
+
 
     public function registerSave(Request $request){
         Validator::make($request->all(), [

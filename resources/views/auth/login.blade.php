@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite('resources/css/app.css')
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Mctrish Customs</title>
 </head>
 
 <body style="font-family: PT Sans; background-color: #1E252B; color: #fff; justify-items:center;">
     <div class="flex flex-col justify-center px-6 py-12" style="background-color: #262D34; margin-top: 10%; width:600px; border-radius: 30px;">
+    <a href="{{route('home')}}"><span style="cursor: pointer;" class="material-symbols-outlined">arrow_back_ios</span></a>
         <div class="sm:mx-auto sm:w-full sm:max-w-sm">
             <img class="mx-auto h-20 w-auto" src="{{ url('/img/logo.png') }}" alt="no logo">
         </div>
