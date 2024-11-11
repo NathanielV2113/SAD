@@ -21,9 +21,6 @@
                 <li class="listt"><a href="{{route('orders')}}"><span style="font-size: 30px; cursor:pointer" class="material-symbols-outlined">
                         notifications
                     </span></li></a>
-                @if (session())
-                <li class="listt"><a href="{{route('login')}}">{{'$username'}}</a></li>
-                @endif
                 <li class="listt"><a href="{{route('login')}}">Login</a></li>
             </ul>
         </nav>
